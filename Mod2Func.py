@@ -8,4 +8,3 @@ while i < 5:
     print_params(vvod_param)
 else:
     print('ввод закончен')
-
