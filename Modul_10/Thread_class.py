@@ -1,4 +1,3 @@
-
 import time
 from threading import Thread
 
@@ -13,11 +12,7 @@ class Knight(Thread):
         while self.attack > 0:
             self.attack -= self.skills
             day += 1
-<<<<<<< HEAD
             print(f'{self.name} сражается {day} день(дня)..., осталось {self.attack} воинов')
-=======
-            print(f'{self.name} сражается {day} день(дня)..., осталось {self.attack} воинов', flush= True)
->>>>>>> origin/master
             time.sleep(1)
         print(f'{self.name} одержал победу спустя {day} дней!')
 
